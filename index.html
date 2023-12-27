@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookshelf Apps</title>
+</head>
+<body>
+    <header>
+        <h1>Bookshelf Apps by MUHAYUF</h1>
+    </header>
+
+    <main>
+        <form action="#" class="add" id="addForm">
+            <h2>Masukkan Buku Baru</h2>
+            
+            <h4>Judul</h4>
+            <input class="inputText" id="inputTitle" type="text" placeholder="Masukkan Judul Buku">
+            
+            <h4>Penulis</h4>
+            <input class="inputText" id="inputAuthor" type="text" placeholder="Masukkan Nama Penulis">
+            
+            <h4>Tahun</h4>
+            <input class="inputText" id="inputYear" type="number" placeholder="Masukkan Tahun Terbit">
+
+            <div class="checkBox">
+                <h4>Selesai Dibaca</h4>
+                <input class="inputReaded" id="inputReaded" type="checkbox">
+            </div>
+
+            <button type="submit" id="addBtn"><h3>Masukkan ke Rak Buku</h3></button>
+        </form>
+        
+        <div class="search">
+            <h2>Cari Buku</h2>
+
+            <form action="#" class="searchBar" id="searchForm">
+                <h4>Judul</h4>
+                <input id="searchInput" type="text" placeholder="Masukkan Judul Buku">
+                <button type="submit" id="searchBtn">Search</button>
+            </form>
+            <p>Kosongkan search bar untuk mencari semua buku yang ada</p>
+        </div>
+        
+        <div class="rakBuku">
+            
+            <div class="shelf">
+                <h2>Belum Selesai Dibaca</h2>
+                <p class="counter">Jumlah: <span id="notReadedCount">0</span></p>
+                
+                <div id="notReaded" class="bookList">
+                    <!-- <article class="bookItem">
+                        <h3>Book Title</h3>
+                        <p>Penulis: Muhayuf</p>
+                        <p>Tahun: 2023</p>
+                        
+                        <div class="action">
+                            <button class="green">Selesai Dibaca</button>
+                            <button class="yellow">Edit Buku</button>
+                            <button class="red">Hapus Buku</button>
+                        </div>
+                    </article> -->
+                </div>
+            </div>
+            
+            
+            <div class="shelf">
+                <h2>Selesai Dibaca</h2>
+                <p class="counter">Jumlah: <span id="readedCount">0</span></p>
+                
+                <div id="readed" class="bookList">
+                    <!-- <article class="bookItem">
+                        <h3>Book Title</h3>
+                        <p>Penulis: Muhayuf</p>
+                        <p>Tahun: 2023</p>
+                        
+                        <div class="action">
+                            <button class="green">Belum Selesai Dibaca</button>
+                            <button class="yellow">Edit Buku</button>
+                            <button class="red">Hapus Buku</button>
+                        </div>
+                    </article> -->
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>    
+        <h3>Contact</h3>
+        <h1>Get in Touch</h1>
+        
+        <div class="sosmed">
+            <h5>muhammadyusuf.muhayuf@gmail.com</h5>
+            <a href="https://github.com/Muhayuf"><i class="fa-brands fa-github fa-lg sosmedIcon" style="color: #393E46;"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-yusuf-588280208/"><i class="fa-brands fa-linkedin fa-lg sosmedIcon" style="color: #393E46;"></i></a>        
+            <a href="https://www.instagram.com/muhayuf/"><i class="fa-brands fa-instagram fa-lg sosmedIcon" style="color: #393E46;"></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023. Develop & Designed by Muhammad Yusuf</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="storage.js"></script>
+    <script src="dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: #393E46;
+    background-color: #e7edf8;
+    padding: 10px 70px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 -3px 20px rgb(0, 0, 0);
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 3px;
+    color: #61A3BA;
+    text-align: center;
+}
+
+.add {
+    border: #393E46 1px solid;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+.inputText {
+    border: #393E46 1px solid;
+    border-radius: 5px;
+    padding-left: 2px;
+    width: 365px;
+    height: 25px;
+}
+.checkBox {
+    display: flex;
+    align-items: baseline;
+}
+.inputCheck {
+    margin-left: 7px;
+}
+.add button {
+    width: 350px;
+    height: 25px;
+    margin-top: 7px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #61A3BA;
+    color: #e7edf8;
+    cursor: pointer;
+}
+.add h4 {
+    color: #61A3BA;
+    margin-bottom: 1px;
+    margin-top: 15px;
+}
+
+.search {
+    border: #393E46 1px solid;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+}
+.searchBar {
+    display: flex;
+    align-items: baseline;
+}
+.search h4 {
+    color: #61A3BA;
+    margin-bottom: 1px;
+    margin-top: 15px;
+}
+.search Input {
+    margin: 0 7px;
+    border: #393E46 1px solid;
+    border-radius: 5px;
+    padding-left: 2px;
+    width: 255px;
+    height: 25px;
+}
+.search button {
+    height: 25px;
+    padding: 0 5px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #61A3BA;
+    color: #e7edf8;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.search p {
+    margin-top: 13px;
+    text-align: center;
+    font-weight: 600;
+    font-size: x-small;
+}
+
+.rakBuku {
+    display: flex;
+}
+.shelf {
+    border: #393E46 1px solid;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+    width: 400px;
+}
+.shelf h3, p {
+    color: #393E46;
+}
+.shelf h4 {
+    color: #393E46;
+    text-align: center;
+    padding: 63px 30px;
+}
+.shelf .counter {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bookItem {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid #393E46;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #e7edf8;
+}
+.bookItem h3{
+    color: #393E46;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.bookItem p {
+    margin: 3px 0;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.action button {
+    color: #393E46;
+    font-weight: bolder;
+    height: 25px;
+    padding: 0 5px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    border: #393E46 1px solid;
+    cursor: pointer;
+}
+.green {
+    background-color: #C0EDA6;
+    color: white;
+}
+.yellow {
+    background-color: #F6FFA4;
+    color: white;
+}
+.red {
+    background-color: #FFA8A8;
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: 15px;
+    background-color: #e7edf8;
+    padding: 15px 0 15px 60px;
+}
+footer h3, h5{
+    color: #393E46;
+}
+footer h1 {
+    color: #61A3BA;
+}
+.sosmedIcon {
+    margin-right: 13px;
+    padding-top: 15px;
+}
+.copyright {
+    margin-top: 13px;
+    font-weight: 600;
+    font-size: 10px;
+}
